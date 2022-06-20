@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-items: center;
+    background-color: #f7f7f7;
+    gap: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    
+}
+
+.sobre {
+    background: white;
+    display: grid;
+    gap: 20px;
+    text-align: right;
+    padding: 40px;
+    align-content: center;
+    position: relative;
+    
+}
+
+.detalhe {
+    background: #e21;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+
+.sobre p {
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+.botao {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ee2211;
+    color: white;
+    place-self: start end;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+
+}
+
+.bicicleta {
+    width: 100%;
+}
+
+h2 {
+    color: rgba(0,0,0, 0.2);
+    font-size: 64px;
+    text-align: right;
+    padding: 40px;
+    text-transform: uppercase;
+    place-self: center;
+}
+
+.especificacoes {
+    background: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+
+.especificacoes img {
+    grid-column: 1;
+}
+
+.especificacoes p {
+    grid-column: 2;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
